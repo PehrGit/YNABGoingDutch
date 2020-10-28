@@ -1,4 +1,74 @@
 {
+  "bunq": {
+    "bankName": "BUNQ",
+    "header": [
+      "Datum",
+      "Rentedatum",
+      "Bedrag",
+      "Rekening",
+      "Tegenrekening",
+      "Naam",
+      "Omschrijving"
+    ],
+    "account": [
+      "Rekening"
+    ],
+    "date": [
+      "Datum"
+    ],
+    "dateFormat": "YYYY-MM-DD",
+    "payee": [
+      "Naam",
+      "Tegenrekening"
+    ],
+    "category": [],
+    "memo": [
+      "Omschrijving"
+    ],
+    "outflow": [
+      "Bedrag"
+    ],
+    "inflow": [
+      "Bedrag"
+    ],
+    "positiveIndicator": null,
+    "negativeIndicator": "-"
+  },
+  "bunq-en": {
+    "bankName": "BUNQ",
+    "header": [
+      "Date",
+      "Interest Date",
+      "Amount",
+      "Account",
+      "Counterparty",
+      "Name",
+      "Description"
+    ],
+    "account": [
+      "Account"
+    ],
+    "date": [
+      "Date"
+    ],
+    "dateFormat": "DD/MM/YYYY",
+    "payee": [
+      "Name",
+      "Counterparty"
+    ],
+    "category": [],
+    "memo": [
+      "Description"
+    ],
+    "outflow": [
+      "Amount"
+    ],
+    "inflow": [
+      "Amount"
+    ],
+    "positiveIndicator": null,
+    "negativeIndicator": "-"
+  },
   "KNAB": {
     "bankName": "KNAB",
     "header": [
@@ -28,8 +98,8 @@
     ],
     "dateFormat": "DD-MM-YYYY",
     "payee": [
-      "Tegenrekeningnummer",
-      "Tegenrekeninghouder"
+      "Tegenrekeninghouder",
+      "Tegenrekeningnummer"
     ],
     "category": [],
     "memo": [
@@ -83,8 +153,8 @@
     ],
     "dateFormat": "YYYY-MM-DD",
     "payee": [
-      "Tegenrekening IBAN/BBAN",
-      "Naam tegenpartij"
+      "Naam tegenpartij",
+      "Tegenrekening IBAN/BBAN"
     ],
     "category": [],
     "memo": [
@@ -123,8 +193,8 @@
     ],
     "dateFormat": "YYYYMMDD",
     "payee": [
-      "Tegenrekening",
-      "Naam / Omschrijving"
+      "Naam / Omschrijving",
+      "Tegenrekening"
     ],
     "category": [],
     "memo": [
@@ -142,13 +212,55 @@
       "Af Bij"
     ]
   },
+  "ING Bank Bonusrenterekening": {
+    "bankName": "INGB",
+    "header": [
+      "Datum",
+      "Omschrijving",
+      "Rekening",
+      "Rekening type",
+      "Tegenrekening",
+      "Af Bij",
+      "Bedrag",
+      "Valuta",
+      "Mutatiesoort",
+      "Mededelingen",
+      "Saldo na mutatie"
+    ],
+    "account": [
+      "Rekening"
+    ],
+    "date": [
+      "Datum"
+    ],
+    "dateFormat": "YYYY-MM-DD",
+    "payee": [
+      "Tegenrekening"
+    ],
+    "category": [],
+    "memo": [
+      "Mutatiesoort",
+      "Mededelingen"
+    ],
+    "outflow": [
+      "Bedrag"
+    ],
+    "inflow": [
+      "Bedrag"
+    ],
+    "positiveIndicator": "Bij",
+    "negativeIndicator": "Af",
+    "separateIndicator": [
+      "Af Bij"
+    ]
+  },
   "ASN Bank": {
     "bankName": "ASNB",
     "header": null,
     "account": [1],
     "date": [0],
     "dateFormat": "DD-MM-YYYY",
-    "payee": [3],
+    "payee": [3, 2],
     "category": [],
     "memo": [17],
     "outflow": [10],
@@ -162,7 +274,7 @@
     "account": [1],
     "date": [0],
     "dateFormat": "DD-MM-YYYY",
-    "payee": [3],
+    "payee": [3, 2],
     "category": [],
     "memo": [17],
     "outflow": [10],
